@@ -4,6 +4,7 @@
 
 This is a simple module which start/stop an already installed, existing, localhost mongod server.
 
+This module is very useful for running mongodb as part of a Gulp/Grunt testing task.
 
 ## Getting Started
 
