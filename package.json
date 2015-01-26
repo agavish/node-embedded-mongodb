@@ -1,6 +1,6 @@
 {
   "name": "node-embedded-mongodb",
-  "version": "0.1.0",
+  "version": "0.0.2",
   "main": "lib/node-embedded-mongodb.js",
   "description": "Node.js embedded mongoDb module",
   "homepage": "https://github.com/agavish/node-embedded-mongodb",
