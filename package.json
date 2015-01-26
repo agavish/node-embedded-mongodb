@@ -35,9 +35,7 @@
     "mocha": "^2.1.0",
     "mongoose": "^3.8.22"
   },
-  "scripts": {
-    "test": "gulp test"
-  },
+  "scripts": {},
   "dependencies": {
     "path": "^0.11.14",
     "shelljs": "^0.3.0"
