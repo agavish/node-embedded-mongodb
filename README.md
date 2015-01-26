@@ -2,11 +2,16 @@
 
 > Node.js embedded mongoDb module
 
+This is a simple module which start/stop an already installed, existing, localhost mongod server.
+
 
 ## Getting Started
 
+Install [mongodb](https://www.mongodb.org/downloads)
+ 
 Install the module with: `npm install node-embedded-mongodb`
 
+Then, use it:
 
 ```js
 var embeddedMongoDB = require('node-embedded-mongodb');
