@@ -25,12 +25,19 @@ embeddedMongoDB.start(dbPath, logPath, function(err) {
 // mongodb://localhost:27017 is UP
 )};
 
+OR
+
+embeddedMongoDB.start(null, null, function(err) {
+
+// mongodb://localhost:27017 is UP
+// created a local embedded/data/db folder and a local embedded/log file
+)};
+
 embeddedMongoDB.stop(function(err) {
 
 // mongodb://localhost:27017 is DOWN
 )};
 ```
-
 
 ## Contributing
 
