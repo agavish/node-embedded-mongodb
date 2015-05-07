@@ -9,7 +9,7 @@ This module is very useful for running mongodb as part of a Gulp/Grunt testing t
 ## Getting Started
 
 Install [mongodb](https://www.mongodb.org/downloads)
- 
+
 Install the module with: `npm install node-embedded-mongodb`
 
 Then, use it:
@@ -19,6 +19,9 @@ var embeddedMongoDB = require('node-embedded-mongodb');
 
 var dbPath = '/path/to/data/db/';
 var logPath = '/path/to/mongod.log';
+
+// If you don't want the logs, set true.
+embeddedMongoDB.silentMode(true);
 
 embeddedMongoDB.start(dbPath, logPath, function(err) {
 
