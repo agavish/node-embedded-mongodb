@@ -11,6 +11,9 @@ var localMongoDbLogPath = path.join(process.cwd(), 'embeddedMongoDb', 'log');
 var localMongoDbPath = path.join(process.cwd(), 'embeddedMongoDb', 'data', 'db');
 
 describe('embedded mongodb tests', function () {
+
+    nodeEmbeddedMongodb.silentMode(true);
+
     it('must start if asked for', function (done) {
 
         nodeEmbeddedMongodb.start(null, null, function (err, res) {
