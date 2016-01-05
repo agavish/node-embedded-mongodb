@@ -16,7 +16,7 @@ describe('embedded mongodb tests', function () {
 
     it('must start if asked for', function (done) {
 
-        nodeEmbeddedMongodb.start(null, null, function (err, res) {
+        nodeEmbeddedMongodb.start(null, null, null, function (err, res) {
             assert.ifError(err);
 
             mongoose.connect('mongodb://localhost:27017', null, function (connectMongooseError) {
