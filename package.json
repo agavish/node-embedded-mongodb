@@ -1,6 +1,6 @@
 {
   "name": "node-embedded-mongodb",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "lib/node-embedded-mongodb.js",
   "description": "Node.js embedded mongoDb module",
   "homepage": "https://github.com/agavish/node-embedded-mongodb",
@@ -36,7 +36,7 @@
     "mongoose": "^3.8.22"
   },
   "scripts": {
-    "test" : "gulp test"
+    "test": "gulp test"
   },
   "dependencies": {
     "path": "^0.11.14",
